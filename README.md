@@ -331,7 +331,6 @@ To publish this to npm, run the following commands:
 
 ```bash
 npm run patch
-npm run build
 npm run publish
 ```
 
