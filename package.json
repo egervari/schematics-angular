@@ -32,8 +32,10 @@
     "lint:fix": "node_modules/.bin/tslint --project ./ --fix",
     "check": "npm run pretty:check && npm run lint:check",
     "fix": "npm run pretty:fix && npm run lint:fix",
-    "publish": "npm publish dist --access public",
-    "release-patch": "npm version patch && npm run build && npm run publish"
+    "publish": "npm run build && npm publish dist --access public",
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
   },
   "devDependencies": {
     "@angular-devkit/core": "^7.0.3",
