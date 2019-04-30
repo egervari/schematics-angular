@@ -204,7 +204,7 @@ To create a new Angular CLI Project, execute the following commands
 and you're good to go:
 
 ```bash
-npm install @angular/cli -g
+npm install @angular/cli @angular-devkit/schematics-cli -g
 
 ng new my-project
 ```
