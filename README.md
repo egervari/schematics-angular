@@ -330,16 +330,9 @@ npm run fix
 To publish this to npm, run the following commands:
 
 ```bash
-npm version major/minor/patch
+npm run patch
 npm run build
 npm run publish
 ```
 
-### Quickly create a patch version
-
-To quickly create a patch version, instead of going through all of the
-build and publish commands manually, instead run:
-
-```bash
-npm run release-patch
-```
+Alternatively, instead of patching the version, you can use `npm run minor` or `npm run major` instead.
