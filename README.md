@@ -334,4 +334,5 @@ npm run patch
 npm run publish
 ```
 
-Alternatively, instead of patching the version, you can use `npm run minor` or `npm run major` instead.
+Alternatively, instead of patching the version, you can use 
+`npm run minor` or `npm run major` instead.
